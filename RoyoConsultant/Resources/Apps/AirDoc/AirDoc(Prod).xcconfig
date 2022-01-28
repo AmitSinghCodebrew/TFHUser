@@ -1,0 +1,62 @@
+
+
+#include "Pods/Target Support Files/Pods-AirDoc/Pods-AirDoc.production.xcconfig"
+
+//Google Info.plist Items //Google Login and Firebase Push
+PROJECT_CLIENT_ID = 961139685643-2rg4aq24vesm5quvs80nifgug3a43k51.apps.googleusercontent.com
+PROJECT_REVERSED_CLIENT_ID = com.googleusercontent.apps.961139685643-2rg4aq24vesm5quvs80nifgug3a43k51
+PROJECT_GOOGLE_PLIST = AirDoc_GoogleService-Info
+BACKEND_SERVER_KEY = AAAA38hjuQs:APA91bGYEl4yefDaRpe0yv9w4Pc7HYrSZL413WW0pJB5-YqkwCKr3zNFvTvm3xZI4LlJMwDor6XJcl5Wn8ctwaY62_vSvwlCrFVrHhL2el-h4Z1tZEmSQ1KiacR8cgV944thVNl8X2Co
+
+//Facebook SDK //SigIn
+PROJECT_FACEBBOK_APP_ID = 816694742513784
+
+//App Store ID
+PROJECT_APPLE_APP_ID = 000000000
+RELATED_OTHER_APPLE_APP_ID = 000000000
+PROJECT_BUNDLE_ID = com.airdoc.user
+PROJECT_APP_VERSION = 1.0.0
+PROJECT_BUILD_VERSION = 1.0
+PROJECT_APP_NAME = AirDoc //Change in Localizable also
+PROJECT_PLIST = Info_AirDoc
+
+
+//Related Android App
+PROJECT_ANDROID_PACKAGE_NAME = com.airdoc.user
+
+//DeepLinking
+PROJECT_FIREBASE_PAGE_LINK = airdocapp.page.link
+
+//Server URLs
+PROJECT_PROJECT_ID = 97cbe68ed1c26aaf7ac5b64659da6b9c14
+PROJECT_BASE_PATH = https:/$()/royoconsult.com/
+PROJECT_SOCKET_BASE_PATH = https:/$()/node.royoconsult.com
+PROJECT_JITSI_SERVER = https:/$()/meet.royoapps.com/
+PROJECT_IMAGE_THUMBS = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/thumbs/
+PROJECT_IMAGE_UPLOAD = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/uploads/
+PROJECT_IMAGE_ORIGINAL = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/original/
+PROJECT_PDF = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/pdf/
+PROJECT_AUDIO = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/audio/
+
+//Localizbale file name
+PROJECT_LOCALIZABLE = LocalizableAirDoc
+ENTITLEMENTS = AirDoc.entitlements
+
+ACTIVE_COMPILATION_FLAG = AirDoc
+
+//1. Apple Developer Account :
+//
+//Username: k.obianodo@gmail.com
+//Password: 1Character1989
+//
+//2. Google Play Console Account:
+//
+//Username: K.obianodo@gmail.com
+//Password: 1Character_swisat
+//
+//3. Google Developer console account
+//
+//Username: K.obianodo@gmail.com
+//Password: 1Character_swisat
+//
+//UDID of Phone:Serial:  UDID: 00008030-001E64813E02802E · Model: iPhone12,5

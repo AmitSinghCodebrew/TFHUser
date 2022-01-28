@@ -1,0 +1,6 @@
+framework module Pods_CloudDoc {
+  umbrella header "Pods-CloudDoc-umbrella.h"
+
+  export *
+  module * { export * }
+}

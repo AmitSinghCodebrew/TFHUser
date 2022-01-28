@@ -1,0 +1,50 @@
+
+
+#include "Pods/Target Support Files/Pods-Heal/Pods-Heal.production.xcconfig"
+
+//Google Info.plist Items //Google Login and Firebase Push
+PROJECT_CLIENT_ID = 1001624543225-raa93iuvo1so3b1g01b0t9pdbqhmo33e.apps.googleusercontent.com
+PROJECT_REVERSED_CLIENT_ID = com.googleusercontent.apps.1001624543225-raa93iuvo1so3b1g01b0t9pdbqhmo33e
+PROJECT_GOOGLE_PLIST = Heal_GoogleService-Info
+BACKEND_SERVER_KEY = AAAA6TV5n_k:APA91bEFAAQn-yv_eoFkqRWW85x3xK0S1fBky_Vi51FCghV7Arn5dC8S45ElyVrX7Nw3fm3pJ-axQ2Ths3boLRnUdn53MvTFgDUtKQe6m1U9G9Xc81GyDp1qpKJC9mDF4UqsHfX74q08
+PROJECT_GOOGLE_PLACES_KEY = AIzaSyD8H-xaJhni0iozyRdTG3pDmrQHQJYkF_M
+
+//Facebook SDK //SigIn
+PROJECT_FACEBBOK_APP_ID = 347523059865896
+
+//App Store ID
+PROJECT_APPLE_APP_ID = 1540260744
+RELATED_OTHER_APPLE_APP_ID = 1540266850
+PROJECT_BUNDLE_ID = com.heal.user
+PROJECT_APP_VERSION = 1.0.1
+PROJECT_BUILD_VERSION = 1
+PROJECT_APP_NAME = Heal //Change in Localizable also
+PROJECT_PLIST = Info_Heal
+
+
+//Related Android App
+PROJECT_ANDROID_PACKAGE_NAME = com.heal.user
+
+//DeepLinking
+PROJECT_FIREBASE_PAGE_LINK = healconsult.page.link
+//applinks:royoconsult.page.link
+
+//Server URLs
+PROJECT_PROJECT_ID = 27e6f7e43e86c5d9f73ad41dab4cba2210
+PROJECT_BASE_PATH = https:/$()/royoconsult.com/
+PROJECT_SOCKET_BASE_PATH = https:/$()/node.royoconsult.com
+PROJECT_JITSI_SERVER = https:/$()/meet.royoapps.com/
+PROJECT_IMAGE_THUMBS = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/thumbs/
+PROJECT_IMAGE_UPLOAD = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/uploads/
+PROJECT_IMAGE_ORIGINAL = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/original/
+PROJECT_PDF = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/pdf/
+PROJECT_AUDIO = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/audio/
+
+//Localizbale file name
+PROJECT_LOCALIZABLE = LocalizableHeal
+ENTITLEMENTS = Heal.entitlements
+
+ACTIVE_COMPILATION_FLAG = Heal
+
+//[4:25 PM, 11/13/2020] +966 50 683 0127: Apple id: Inquire@megsult.com
+//[4:25 PM, 11/13/2020] +966 50 683 0127: Pass: Codebre2020.

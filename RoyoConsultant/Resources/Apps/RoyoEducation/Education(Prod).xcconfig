@@ -1,0 +1,45 @@
+
+
+#include "Pods/Target Support Files/Pods-RoyoEducation/Pods-RoyoEducation.production.xcconfig"
+
+//Google Info.plist Items //Google Login and Firebase Push
+PROJECT_CLIENT_ID = 985496364415-hbo403nmok8chuhihq2c2uk0kmvf2hj9.apps.googleusercontent.com
+PROJECT_REVERSED_CLIENT_ID = com.googleusercontent.apps.985496364415-hbo403nmok8chuhihq2c2uk0kmvf2hj9
+PROJECT_GOOGLE_PLIST = Royo_Education_GoogleService-Info
+BACKEND_SERVER_KEY = AAAA5XQpJX8:APA91bGAoctJ4pF3OJQG47VeAvdBFfuiHdZj7jqtycinW04yxJo_2Hj-o4hi4LIiYICvsG19Dn-_UA439PDBirY6Z-cdYlByoxGHQ9W9xWNx_MzbiDZ5dK2XVWv7O6_qOAbDvbpwAiqW
+
+//Facebook SDK //SigIn
+PROJECT_FACEBBOK_APP_ID = 757819374777114
+
+//App Store ID
+PROJECT_APPLE_APP_ID = 1532025072
+RELATED_OTHER_APPLE_APP_ID = 1532366824
+PROJECT_BUNDLE_ID = com.codebrew.RoyoEducation
+PROJECT_APP_VERSION = 1.0.0
+PROJECT_BUILD_VERSION = 1.6
+PROJECT_APP_NAME = Royo Education //Change in Localizable also
+PROJECT_PLIST = Info_RoyoEducation
+
+
+//Related Android App
+PROJECT_ANDROID_PACKAGE_NAME = com.edu.user
+
+//DeepLinking
+PROJECT_FIREBASE_PAGE_LINK = royoeducation.page.link
+
+//Server URLs
+PROJECT_PROJECT_ID = a3a6ed3c5f13b4221bb36348cee600e29
+PROJECT_BASE_PATH = https:/$()/royoconsult.com/
+PROJECT_SOCKET_BASE_PATH = https:/$()/node.royoconsult.com
+PROJECT_JITSI_SERVER = https:/$()/meet.royoapps.com/
+PROJECT_IMAGE_THUMBS = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/thumbs/
+PROJECT_IMAGE_UPLOAD = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/uploads/
+PROJECT_IMAGE_ORIGINAL = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/original/
+PROJECT_PDF = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/pdf/
+PROJECT_AUDIO = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/audio/
+
+//Localizbale file name
+PROJECT_LOCALIZABLE = LocalizableRoyoConsult
+ENTITLEMENTS = RoyoEducation.entitlements
+
+ACTIVE_COMPILATION_FLAG = RoyoEducation

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="campton-medium.ttf">
+            <string>Campton-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="CarePlanHeaderView" customModule="NurseLynx" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="678" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tier 1 Pricinng startig at $18" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOJ-K1-tR0">
+                    <rect key="frame" x="0.0" y="30" width="638" height="20"/>
+                    <fontDescription key="fontDescription" name="Campton-Medium" family="Campton" pointSize="16"/>
+                    <color key="textColor" name="txtMoreDark"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_dropdown" translatesAutoresizingMaskIntoConstraints="NO" id="xsq-hJ-wzx">
+                    <rect key="frame" x="638" y="0.0" width="24" height="80"/>
+                    <color key="tintColor" name="btnDarkTint"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="gQN-Qr-52y"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMN-Z2-noQ">
+                    <rect key="frame" x="0.0" y="0.0" width="678" height="80"/>
+                    <connections>
+                        <action selector="btnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="sr6-ir-RNw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <accessibility key="accessibilityConfiguration" identifier="CarePlanHeaderView"/>
+            <constraints>
+                <constraint firstItem="wMN-Z2-noQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7Gw-z2-dZZ"/>
+                <constraint firstAttribute="bottom" secondItem="xsq-hJ-wzx" secondAttribute="bottom" id="KJh-x6-wWO"/>
+                <constraint firstItem="xsq-hJ-wzx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="N0a-6O-dWg"/>
+                <constraint firstAttribute="bottom" secondItem="wMN-Z2-noQ" secondAttribute="bottom" id="PmZ-34-Ava"/>
+                <constraint firstItem="mOJ-K1-tR0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Wbq-Hp-MaK"/>
+                <constraint firstItem="wMN-Z2-noQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="X0F-mh-Dhp"/>
+                <constraint firstAttribute="trailing" secondItem="xsq-hJ-wzx" secondAttribute="trailing" constant="16" id="fBX-hd-5Mo"/>
+                <constraint firstItem="mOJ-K1-tR0" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="fxV-fT-4Va"/>
+                <constraint firstItem="xsq-hJ-wzx" firstAttribute="leading" secondItem="mOJ-K1-tR0" secondAttribute="trailing" id="man-tu-VM6"/>
+                <constraint firstAttribute="trailing" secondItem="wMN-Z2-noQ" secondAttribute="trailing" id="t6m-mk-qNf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imgDownUp" destination="xsq-hJ-wzx" id="AXT-hB-H11"/>
+                <outlet property="lblTitle" destination="mOJ-K1-tR0" id="Fox-hb-GM6"/>
+            </connections>
+            <point key="canvasLocation" x="191.30434782608697" y="381.69642857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_dropdown" width="24" height="24"/>
+        <namedColor name="btnDarkTint">
+            <color red="0.28200000524520874" green="0.28200000524520874" blue="0.28200000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="txtMoreDark">
+            <color red="0.15700000524520874" green="0.14499999582767487" blue="0.14499999582767487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

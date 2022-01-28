@@ -1,0 +1,50 @@
+
+
+#include "Pods/Target Support Files/Pods-NurseLynx/Pods-NurseLynx.production.xcconfig"
+
+//Google Info.plist Items //Google Login and Firebase Push
+PROJECT_CLIENT_ID = 1032811457113-l5u532a9ppl05h2vl6k4hs59393i5h99.apps.googleusercontent.com
+PROJECT_REVERSED_CLIENT_ID = com.googleusercontent.apps.1032811457113-l5u532a9ppl05h2vl6k4hs59393i5h99
+PROJECT_GOOGLE_PLIST = NurseLynx_GoogleService-Info
+BACKEND_SERVER_KEY = AAAA8HhcKlk:APA91bE5KDVsQISrBCYPeNusR3zF8LRtRodGCVfnlrqpJ7TjB4RZ72CYin65CUb8TFkCC2F4FUxxWuKIhP7AK07ty1UeY5H4E_FZddc9ywbLU_zqDxd25Kemlrwq2k27O5_F6C2hLQ_4
+PROJECT_GOOGLE_PLACES_KEY = AIzaSyDdpzfu1NSSi5WalpVjkswXzvf0QaV8FeI
+
+//Facebook SDK //SigIn
+PROJECT_FACEBBOK_APP_ID = 680508489286924
+
+//App Store ID
+PROJECT_APPLE_APP_ID = 1557177193
+RELATED_OTHER_APPLE_APP_ID = 1557177715
+PROJECT_BUNDLE_ID = com.nurseLynx.user
+PROJECT_APP_VERSION = 1.1
+PROJECT_BUILD_VERSION = 5
+PROJECT_APP_NAME = NurseLynx //Change in Localizable also
+PROJECT_PLIST = Info_NurseLynx
+
+
+//Related Android App
+PROJECT_ANDROID_PACKAGE_NAME = com.nurseLynx.user
+
+//DeepLinking
+PROJECT_FIREBASE_PAGE_LINK = nurselynx.page.link
+
+//Server URLs
+PROJECT_PROJECT_ID = c6b484d83fb21425453dcd0af6c1f01b15
+PROJECT_BASE_PATH = https:/$()/royoconsult.com/
+PROJECT_SOCKET_BASE_PATH = https:/$()/node.royoconsult.com
+PROJECT_JITSI_SERVER = https:/$()/meet.royoapps.com/
+PROJECT_IMAGE_THUMBS = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/thumbs/
+PROJECT_IMAGE_UPLOAD = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/uploads/
+PROJECT_IMAGE_ORIGINAL = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/original/
+PROJECT_PDF = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/pdf/
+PROJECT_AUDIO = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/audio/
+
+//Localizbale file name
+PROJECT_LOCALIZABLE = LocalizableNurseLynx
+ENTITLEMENTS = NurseLynx.entitlements
+
+ACTIVE_COMPILATION_FLAG = NurseLynx
+
+//judith.walker@nurselynx.com
+//Blessing@once
+

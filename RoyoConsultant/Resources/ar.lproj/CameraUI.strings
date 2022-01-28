@@ -1,0 +1,16 @@
+/* 
+  CameraUI.strings
+  RoyoConsultant
+
+  Created by Sandeep Kumar on 31/05/21.
+  Copyright © 2021 SandsHellCreations. All rights reserved.
+*/
+
+"PHOTO" = "صورة";
+"AEAF_LOCK_TEXT" = "AE/AF LOCK";
+"API_CANCEL_TITLE" = "يلغي";
+"HDR_AUTO" = "تلقاءي";
+"HDR_ON" = "على";
+"HDR_OFF" = "عن";
+"TIMER_OFF_TEXT" = "عن";
+"USE_PHOTO" = "استخدم الاختبار";

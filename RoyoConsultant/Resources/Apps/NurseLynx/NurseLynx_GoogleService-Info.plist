@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1032811457113-l5u532a9ppl05h2vl6k4hs59393i5h99.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1032811457113-l5u532a9ppl05h2vl6k4hs59393i5h99</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1032811457113-ledsgoe1si7i3g8tnv8ttfsrnd0pufkb.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDdpzfu1NSSi5WalpVjkswXzvf0QaV8FeI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1032811457113</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nurseLynx.user</string>
+	<key>PROJECT_ID</key>
+	<string>nurselynx-2fb1c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nurselynx-2fb1c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1032811457113:ios:01698f69d31408b1f7df48</string>
+</dict>
+</plist>

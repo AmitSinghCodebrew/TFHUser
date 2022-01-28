@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="campton-medium.ttf">
+            <string>Campton-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HomeSectionViewShort" customModule="AirDoc" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="424" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbt-eC-otA">
+                    <rect key="frame" x="0.0" y="0.0" width="424" height="65"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subscriptions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TC9-Jt-ge0">
+                            <rect key="frame" x="16" y="0.0" width="123" height="65"/>
+                            <fontDescription key="fontDescription" name="Campton-Medium" family="Campton" pointSize="20"/>
+                            <color key="textColor" name="txtMoreDark"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subscriptions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kF4-qg-Tbc">
+                            <rect key="frame" x="16" y="0.0" width="392" height="65"/>
+                            <fontDescription key="fontDescription" name="Campton-Medium" family="Campton" pointSize="20"/>
+                            <color key="textColor" name="txtMoreDark"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSg-AL-Hj3">
+                            <rect key="frame" x="360" y="0.0" width="48" height="65"/>
+                            <fontDescription key="fontDescription" name="Campton-Medium" family="Campton" pointSize="14"/>
+                            <state key="normal" title="View all">
+                                <color key="titleColor" name="txtTheme"/>
+                            </state>
+                            <connections>
+                                <action selector="btnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="60z-IY-6R9"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVi-MR-peA">
+                            <rect key="frame" x="147" y="0.0" width="87" height="65"/>
+                            <fontDescription key="fontDescription" name="Campton-Medium" family="Campton" pointSize="14"/>
+                            <state key="normal" title="My Questions">
+                                <color key="titleColor" name="txtTheme"/>
+                            </state>
+                            <connections>
+                                <action selector="btnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="tPh-0q-GMw"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="backgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="kF4-qg-Tbc" firstAttribute="top" secondItem="Hbt-eC-otA" secondAttribute="top" id="6Fu-Ij-grJ"/>
+                        <constraint firstAttribute="trailing" secondItem="kSg-AL-Hj3" secondAttribute="trailing" constant="16" id="6uf-mD-E1n"/>
+                        <constraint firstAttribute="trailing" secondItem="kF4-qg-Tbc" secondAttribute="trailing" constant="16" id="HpQ-Vy-BMJ"/>
+                        <constraint firstAttribute="bottom" secondItem="kF4-qg-Tbc" secondAttribute="bottom" id="Kyd-vO-bbP"/>
+                        <constraint firstItem="KVi-MR-peA" firstAttribute="leading" secondItem="TC9-Jt-ge0" secondAttribute="trailing" constant="8" id="MEE-8Q-hfQ"/>
+                        <constraint firstAttribute="bottom" secondItem="KVi-MR-peA" secondAttribute="bottom" id="Ndh-c1-L13"/>
+                        <constraint firstItem="kSg-AL-Hj3" firstAttribute="top" secondItem="Hbt-eC-otA" secondAttribute="top" id="PE3-11-LFq"/>
+                        <constraint firstItem="TC9-Jt-ge0" firstAttribute="top" secondItem="Hbt-eC-otA" secondAttribute="top" id="QIK-Dy-x4j"/>
+                        <constraint firstAttribute="bottom" secondItem="kSg-AL-Hj3" secondAttribute="bottom" id="WtM-kq-YJF"/>
+                        <constraint firstAttribute="bottom" secondItem="TC9-Jt-ge0" secondAttribute="bottom" id="Yh5-oE-JYi"/>
+                        <constraint firstItem="TC9-Jt-ge0" firstAttribute="leading" secondItem="Hbt-eC-otA" secondAttribute="leading" constant="16" id="azv-37-ImY"/>
+                        <constraint firstItem="kF4-qg-Tbc" firstAttribute="leading" secondItem="Hbt-eC-otA" secondAttribute="leading" constant="16" id="uwD-a9-eiV"/>
+                        <constraint firstItem="KVi-MR-peA" firstAttribute="top" secondItem="Hbt-eC-otA" secondAttribute="top" id="wDA-Fy-b7K"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <accessibility key="accessibilityConfiguration" identifier="HomeSectionViewShort"/>
+            <constraints>
+                <constraint firstItem="Hbt-eC-otA" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="2IF-h5-8cg"/>
+                <constraint firstItem="Hbt-eC-otA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="FqN-nL-rle"/>
+                <constraint firstAttribute="bottom" secondItem="Hbt-eC-otA" secondAttribute="bottom" id="P4C-XK-8kE"/>
+                <constraint firstItem="Hbt-eC-otA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="m3R-3a-eoB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn" destination="kSg-AL-Hj3" id="2zf-we-ryb"/>
+                <outlet property="btnMyQuestions" destination="KVi-MR-peA" id="FMb-Xm-2NT"/>
+                <outlet property="lblCarePlan" destination="kF4-qg-Tbc" id="q0f-qW-uwN"/>
+                <outlet property="lblTitleTop" destination="TC9-Jt-ge0" id="9M7-SS-efI"/>
+            </connections>
+            <point key="canvasLocation" x="144.92753623188406" y="266.85267857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="backgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="txtMoreDark">
+            <color red="0.15700000524520874" green="0.14499999582767487" blue="0.14499999582767487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="txtTheme">
+            <color red="0.24699999392032623" green="0.5690000057220459" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

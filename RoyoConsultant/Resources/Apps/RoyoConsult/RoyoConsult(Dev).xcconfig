@@ -1,0 +1,44 @@
+
+
+#include "Pods/Target Support Files/Pods-RoyoConsult/Pods-RoyoConsult.development.xcconfig"
+
+//Google Info.plist Items //Google Login and Firebase Push
+PROJECT_CLIENT_ID = 952614479078-lutkvdbaoav2n87t7nuens3qaoqrn879.apps.googleusercontent.com
+PROJECT_REVERSED_CLIENT_ID = com.googleusercontent.apps.952614479078-lutkvdbaoav2n87t7nuens3qaoqrn879
+PROJECT_GOOGLE_PLIST = Royo_Consult_GoogleService-Info
+BACKEND_SERVER_KEY = AAAA3cw_ZOY:APA91bEhM5Y7VMATmlOkYxae_5KOwcS4FAiJ-FTZy01xtXxzbcxG1vtFp-dEOy3CSmriYR8Jz2avw3SnEwDdhoCd4zVrJQu_kRIctEv-kcP6faGpGgtI5vE2gbNBt-wwXSAgTmHSFrzX
+
+//Facebook SDK //SigIn
+PROJECT_FACEBBOK_APP_ID = 614826522700049
+
+//App Store ID
+PROJECT_APPLE_APP_ID = 1518514567
+RELATED_OTHER_APPLE_APP_ID = 1518514943
+PROJECT_BUNDLE_ID = com.codebrew.RoyoConsultant
+PROJECT_APP_VERSION = 1.0.4
+PROJECT_BUILD_VERSION = 1.0
+PROJECT_APP_NAME = Royo Consult //Change in Localizable also
+PROJECT_PLIST = Info_RoyoConsult
+
+//Related Android App
+PROJECT_ANDROID_PACKAGE_NAME = com.consultantapp
+
+//DeepLinking
+PROJECT_FIREBASE_PAGE_LINK = royoconsult.page.link
+
+//Server URLs
+PROJECT_PROJECT_ID = a59ef14422c898df221e0f4da0ed85611
+PROJECT_BASE_PATH = https:/$()/royoconsult.com/
+PROJECT_SOCKET_BASE_PATH = https:/$()/node.royoconsult.com
+PROJECT_JITSI_SERVER = https:/$()/meet.royoapps.com/
+PROJECT_IMAGE_THUMBS = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/thumbs/
+PROJECT_IMAGE_UPLOAD = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/uploads/
+PROJECT_IMAGE_ORIGINAL = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/original/
+PROJECT_PDF = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/pdf/
+PROJECT_AUDIO = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/audio/
+
+//Localizbale file name
+PROJECT_LOCALIZABLE = LocalizableRoyoConsult
+ENTITLEMENTS = RoyoConsult.entitlements
+
+ACTIVE_COMPILATION_FLAG = RoyoConsult

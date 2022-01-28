@@ -1,0 +1,49 @@
+
+
+#include "Pods/Target Support Files/Pods-HomeDoctorKhalid/Pods-HomeDoctorKhalid.development.xcconfig"
+
+//Google Info.plist Items //Google Login and Firebase Push
+PROJECT_CLIENT_ID = 226777979953-q09n6d9kerlkqq885bj74phnjk1pqit4.apps.googleusercontent.com
+PROJECT_REVERSED_CLIENT_ID = com.googleusercontent.apps.226777979953-q09n6d9kerlkqq885bj74phnjk1pqit4
+PROJECT_GOOGLE_PLIST = HomeDoctorKhalid_GoogleService-Info
+BACKEND_SERVER_KEY = AAAANM0FXDE:APA91bHzRNwliVNXjAoyfqssBn3SaU-wxnntyCaNi9kTtfnc7FuIaBZfPw6UNVhK7TK9Mm-p2j_1B4n4f0hG5FzcdKr2c86Gjs8oqOlqnevbfd-45BOR0eCzrwubmq0CoKTU1haB6QvS
+PROJECT_GOOGLE_PLACES_KEY = AIzaSyDCVqemLb263wtS1eU2qiueV5AP9ME0F_A
+
+//Facebook SDK //SigIn
+PROJECT_FACEBBOK_APP_ID = 1304056943287310
+
+//App Store ID
+PROJECT_APPLE_APP_ID = 1545573544
+RELATED_OTHER_APPLE_APP_ID = 1546698181
+PROJECT_BUNDLE_ID = com.homeDoctor.Khalid
+PROJECT_APP_VERSION = 1.5
+PROJECT_BUILD_VERSION = 1
+PROJECT_APP_NAME = Inhomed //Change in Localizable also
+PROJECT_PLIST = Info_HomeDoctorKhalid
+
+
+//Related Android App
+PROJECT_ANDROID_PACKAGE_NAME = com.homeDoctor.user
+
+//DeepLinking
+PROJECT_FIREBASE_PAGE_LINK = inhomed.page.link
+
+//Server URLs
+PROJECT_PROJECT_ID = cee2fff85b65c53502034e689c65001611
+PROJECT_BASE_PATH = https:/$()/calladmin.inhomed.com/
+PROJECT_SOCKET_BASE_PATH = https:/$()/call.inhomed.com
+PROJECT_JITSI_SERVER = https:/$()/meet.inhomed.com/
+PROJECT_IMAGE_THUMBS = https:/$()/inhomed-assets.s3.me-south-1.amazonaws.com/thumbs/
+PROJECT_IMAGE_UPLOAD = https:/$()/inhomed-assets.s3.me-south-1.amazonaws.com/uploads/
+PROJECT_IMAGE_ORIGINAL = https:/$()/inhomed-assets.s3.me-south-1.amazonaws.com/original/
+PROJECT_PDF = https:/$()/inhomed-assets.s3.me-south-1.amazonaws.com/pdf/
+PROJECT_AUDIO = https:/$()/inhomed-assets.s3.me-south-1.amazonaws.com/audio/
+
+//Localizbale file name
+PROJECT_LOCALIZABLE = LocalizableKhalid
+ENTITLEMENTS = HomeDoctorKhalid.entitlements
+
+ACTIVE_COMPILATION_FLAG = HomeDoctorKhalid
+
+//Info@inhomed.com
+//Khaled2@

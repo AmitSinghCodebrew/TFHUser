@@ -1,0 +1,53 @@
+
+
+#include "Pods/Target Support Files/Pods-TaraDoc/Pods-TaraDoc.development.xcconfig"
+
+//Google Info.plist Items //Google Login and Firebase Push
+PROJECT_CLIENT_ID = 115504612011-tlvubqo507kflj6b4ka3na0sl67qql2t.apps.googleusercontent.com
+PROJECT_REVERSED_CLIENT_ID = com.googleusercontent.apps.115504612011-tlvubqo507kflj6b4ka3na0sl67qql2t
+PROJECT_GOOGLE_PLIST = TaraDoc_GoogleService-Info
+BACKEND_SERVER_KEY = AAAAGuScgqs:APA91bH_b_K5N7efge8dmA-pwsCbmxLiAcZOXHHQrNnkc_VT2OPtw3JXz2DJzj0n6J5qoVpzEIaqdV1WqYTUI9k1kI5LK85UEIdAA4u2fn10p_JdOt4mXp39d9foPgZ6jHmHcOAv3CG_
+
+//Facebook SDK //SigIn
+PROJECT_FACEBBOK_APP_ID = 137024514882030
+
+//App Store ID
+PROJECT_APPLE_APP_ID = 1570108574
+RELATED_OTHER_APPLE_APP_ID = 1570108491
+PROJECT_BUNDLE_ID = com.taradoc.user
+PROJECT_APP_VERSION = 1.0.0
+PROJECT_BUILD_VERSION = 1.1
+PROJECT_APP_NAME = TaraDoc //Change in Localizable also
+PROJECT_PLIST = Info_TaraDoc
+
+
+//Related Android App
+PROJECT_ANDROID_PACKAGE_NAME = com.taradoc.user
+
+//DeepLinking
+PROJECT_FIREBASE_PAGE_LINK = taradoc.page.link
+
+//Server URLs
+PROJECT_PROJECT_ID = bb4722d01caf2daca69bde408f3829c917
+PROJECT_BASE_PATH = https:/$()/royoconsult.com/
+PROJECT_SOCKET_BASE_PATH = https:/$()/node.royoconsult.com
+PROJECT_JITSI_SERVER = https:/$()/meet.royoapps.com/
+PROJECT_IMAGE_THUMBS = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/thumbs/
+PROJECT_IMAGE_UPLOAD = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/uploads/
+PROJECT_IMAGE_ORIGINAL = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/original/
+PROJECT_PDF = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/pdf/
+PROJECT_AUDIO = https:/$()/consultants3assets.sfo2.digitaloceanspaces.com/audio/
+
+//Localizbale file name
+PROJECT_LOCALIZABLE = LocalizableTaraDoc
+ENTITLEMENTS = TaraDoc.entitlements
+
+ACTIVE_COMPILATION_FLAG = TaraDoc
+
+//https://taradoc.royoconsult.com/admin/dashboard
+//Email: taradoc@yopmail.com
+//Pass: admin@123
+
+//
+//Amitk@code-brew.com
+//Password : Expert@2020
